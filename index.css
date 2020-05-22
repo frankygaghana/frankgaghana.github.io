@@ -1,39 +1,158 @@
 .navbar{
-	position: fixed;
 	width: 100%;
 	top: 0;
-	background-color: #390000;
+	background-color: 	#2a2a28;
 }
+
+.navbar a{
+	color: #bdc3c7;
+}
+
 .navbar a:hover{
-	background-color: #5a0a0a;
+	color: #db9e07;
 }
+
 .navbar-toggler{
-	background-color: white;
+	background-color: #2a2a28;
 }
-#navbarDropdown{
-	color:white;
+
+.card{
+	background-color: #2a2a28;
 }
-.dropdown-item:hover{
-	color:  white;
+
+.container{
+	align-content: center;
 }
-.collapse{
-	margin-left: 5px;
+
+.card-body a:hover{
+	color: #84ade7;
 }
-.table{
-	margin-top: 15%;
+
+.card-body a{
+	margin-right: 5px;
 }
-.footer{
-	margin-top: 12%;
-	width: 100%;
-	height: 50px;
-	line-height: 50px;
-	color: white;
-	background-color: #390000;
+
+.card-img{
+	border-radius: 360px;
+	width: 200px;
+	margin-top: 50px;
 }
-.background{
-	background: url('photo/background/old-books-436498_1920.jpg') no-repeat fixed;
-	-webkit-background-size:100% 100%;
-	-moz-background-size:100% 100%;
-	-o-background-size:100% 100%;
-	background-size:100% 100%; 
+
+.p{
+	font-family: 'Lato';
+}
+
+.modal-content{
+	background-color:	#2b2b2b;
+	color: #bdc3c7;
+}
+
+.isiprofil{
+	background-color: 	#303030;
+}
+
+.profil{
+	background-color: 	#2b2b2b;
+}
+
+.isiintro{
+	background-color: 	#242424;
+}
+
+.intro{
+	background-color: 	#2e2e2e;
+}
+
+.isiedu{
+	background-color: 	#303030;
+}
+
+.edu{
+	background-color: 	#2b2b2b;
+}
+
+.isiskill{
+	background-color: 	#242424;
+}
+
+.skill{
+	background-color: 	#2e2e2e;
+}
+
+.status h6{
+	margin-left: 50px;
+}
+
+.status{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.progress{
+	background: #2e2e2e;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+
+.progress-bar{
+	background: #db9e07;
+}
+
+.pend{
+	border-color: white;
+	margin-top: 100px;
+}
+
+.row{
+	color: #bdc3c7;
+}
+
+.row a{
+	text-decoration: none;
+	color: #bdc3c7
+}
+
+.row a:hover{
+	color: #db9e07;
+}
+
+.progress-bar{
+	animation-name: animasi;
+	/*timing function for dpe jenis animasi, ease-in-out itu supayah ba lambat di awal deng ba lambar di akir*/
+	animation-timing-function: ease-out;
+	/*durasi animasi 1 detik*/
+	animation-duration: 2s;
+}
+	/*dpe nama keyframes musti sama deng di line 20*/
+@keyframes animasi{
+	/*titik awal animasi*/
+	from{
+		width:0%;
+	}
+	/*menuju titik akhir annimasi*/
+}
+
+#progress-content-section .section-content{
+    display:none;
+    animation: FadeInUp 3500ms ease 1; 
+    animation-fill-mode:forwards;
+    transform:translateY(15px);
+    opacity:0;
+}
+
+#progress-content-section .section-content.active {
+    display:block;
+}
+
+@keyframes FadeInUp {
+    0% {
+        transform:translateY(15px);
+        opacity:0;
+    }
+    
+    100% {
+        transform:translateY(0px);
+        opacity:1;
+    }
 }
