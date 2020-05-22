@@ -1,0 +1,22 @@
+.footer{
+  background-color:#2a2a28;
+  padding:25px 0 10px;
+  font-size:15px;
+  line-height:24px;
+  color:  #bdc3c7;
+}
+
+.footer hr{
+  border-color:white;
+  opacity: 0,5;
+}
+
+.footer a{
+  color:  #bdc3c7;
+}
+
+.footer a:hover{
+  color:#db9e07;
+  text-decoration:none;
+}
+
