@@ -1,0 +1,22 @@
+.navbar{
+	width: 100%;
+	top: 0;
+	background-color: #6b7f8c;
+}
+
+.background{
+	background-color: #e9eaeb;
+}
+
+.container{
+	align-content: center;
+}
+
+.card{
+	border-radius: 10px;
+	border-color: #6b7f8c;
+}
+
+.card-img-top{
+	border-radius: 10px;
+}
